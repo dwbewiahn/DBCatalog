@@ -1,16 +1,19 @@
-# DBCatalog
+# DBCatalog 
+*Douglas Bewiahn*
 
-Functional requirements
--
--
--
--
 
-Non-functional requirements
--
+## **Enquadramento**
+Plataforma online de projetos de catalogação de elementos audiovisuais com labels pré-definidos. O sistema será desenvolvido em NodeJS com uma interface REST e Base de Dados em MySQL.
+
+# Functional requirements
 -
 -
 -
 
-Douglas Bewiahn
-50038630
+# Non-functional requirements
+-
+-
+-
+-
+
+
