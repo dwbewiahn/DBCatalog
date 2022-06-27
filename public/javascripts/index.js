@@ -6,5 +6,9 @@ async function login() {
         document.getElementById("errorLogin").innerHTML = "Inform User/Password to login";
         return;
     }
-
-}
+    try{
+        let userInfo = await $.ajax({
+            
+        })
+    }
+}   

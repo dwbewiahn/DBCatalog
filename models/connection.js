@@ -8,7 +8,7 @@ var pool = mysql.createPool({
     port: '3306',
     user: 'admin',
     password: 'RXc*zJh8',
-    database: 'dbcatalog-database-1'
+    database: 'dbcatalog'
 });
 
 
