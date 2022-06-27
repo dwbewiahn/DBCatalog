@@ -1,8 +1,159 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: sans-serif;
+  grid-template-areas:"header header header" "nav nav nav" "main main main" "footer footer footer";
+  margin: 0;
 }
 
-a {
-  color: #00B7FF;
+header{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-around;
+  grid-area: header;
+  background: #EAEAED;
+  padding: 0px;
+  padding-left: 70%;
+  height:0px;  
+ }
+
+ header a:hover {
+  background-color:#49cfa7;
+  border-radius: 5px;
+  padding: 0px 0px;
+  color: white;
 }
+ 
+.buttonBlue{
+  background-color:#49cfa7;
+  border-radius: 5px;
+  border: solid 2px #49cfa7 ;
+  padding: 10px 50px;
+  font-size: 20px;
+  text-align: center;
+  } 
+
+ .buttonBlue:hover{
+  border: solid 2px #49cfa7 ;
+  background-color: white;
+  color: #49cfa7;
+  transition-duration: 500ms;
+  padding: 10px 50px;
+  font-size: 20px;
+ }
+
+a{
+  text-decoration: none;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #49cfa7;
+  background-image: url(../images/dbcatalog-bg.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+  width: 100%;
+  height: auto;
+  
+}
+
+#loginSection{
+  display: flex;
+  flex-direction: column;
+  padding : 50px;
+}
+
+main label {
+  color: white;
+
+}
+
+#errorLogin{
+  color: white;
+  font-weight: bold;
+  
+}
+
+main label{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+main h1{
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: #caf1e6;
+ 
+}
+
+main p{
+  margin-top: 0px;;
+  font-size: 25px;
+  color: white;
+}
+
+.inputformStyle{
+  width : 300px;
+  height : 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+
+}
+
+.buttonMain{
+  border: solid 2px #49cfa7 ;
+  background-color: white;
+  color: #49cfa7;
+  border-radius: 5px;
+  padding: 10px 50px;
+  font-size: 20px;
+  text-align: center;
+  width: 60px;
+  margin-top: 20px;
+  
+  
+  } 
+ .buttonMain:hover{
+  background-color:#49cfa7;
+  color:white;
+  transition-duration: 500ms;
+ }
+
+
+footer{
+ grid-area:footer;
+ display:flex;
+ flex-direction: column;
+ text-align: center;
+ background-color: white;
+ font-size: 20px;
+}
+
+#footerSocial{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0px;
+  margin-top: 0px;
+  margin: 0% 30%;
+  font-size: 30px; 
+} 
+footer a{
+  color: #49cfa7;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+#copyright{
+  color:white;
+  background-color: #49cfa7;
+  font-size: 12px;
+ }

@@ -1,13 +1,41 @@
 <html>
 
 <head>
-  <title>Express</title>
+
+  <title>DBCatalog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <script src="javascripts/index.js"></script>
 </head>
 
 <body>
-  <h1>Express</h1>
-  <p>Welcome to Express</p>
+  <main>
+    <section id="loginSection">
+      <h1>DBCatalog</h1>
+      <p>Organize your media in a simple way!</p>
+      <label for="user">User</label>
+      <input type="text" id="user" class="inputformStyle" name="user" placeholder="ex.: james@gmail.com" maxlength="70">
+      <label for="password">Password</label>
+      <input type="password" id="password" class="inputformStyle" name="password" placeholder="**********" maxlength="70">
+
+      <a href="#" id="loginBt" class="buttonMain" onclick="login()">Login</a>
+      <p id="errorLogin"></p>
+      </section>
+  </main>
+
+  <footer>
+    <p>Social</p>
+    <section id="footerSocial">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </section>
+    <section id="copyright">
+      <p>&copy; DBCatalog</p>
+    </section>
+
+  </footer>
 </body>
 
 </html>
